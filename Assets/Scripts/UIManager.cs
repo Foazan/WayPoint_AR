@@ -38,7 +38,7 @@ public class UIManager : MonoBehaviour
 
         if (teskTujuan != null)
         {
-            teskTujuan.text = "Tujuan" + namaRuangan;
+            teskTujuan.text = "Tujuan " + namaRuangan;
         }
     }
 

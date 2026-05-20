@@ -20,7 +20,7 @@ public class MarkerNavigation : MonoBehaviour
             observerBehaviour.OnTargetStatusChanged += OnTargetStatusChanged;
         }
 
-        // Pastikan mati di awal
+        // Mati di awal
         if (rutePanah != null) rutePanah.SetActive(false);
     }
 
